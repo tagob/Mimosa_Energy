@@ -134,4 +134,4 @@ Block 08: Integrated live updates with the live_update() function directly defin
 
 Block 09: Defined the update_chart() and live_update() functions for real-time data updates.
 
-Feel free to copy and save this summary for your records. Let me know if there's anything else you need before you go! 🌿📊🚀
+Feel free to copy and save this summary for your records. Let me know if there's anything else you need before you 
