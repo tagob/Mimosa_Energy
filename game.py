@@ -124,7 +124,7 @@ while running:
 
     # Plant simulation
     for plant in plants:
-        color = RED if plant['state'] == 'closed' else NEON_BLUE
+        color = RED if plant ['state'] == 'closed' else NEON_BLUE
         pygame.draw.circle(screen, color, (plant['x'] + control_panel.width, plant['y']), plant_radius)
         if plant['state'] == 'closed':
             plant['state'] = 'open'  # Reopen after one frame
@@ -156,4 +156,4 @@ while running:
     pygame.display.flip()
     clock.tick(60)
 
-pygame.quit()
+pygame.quit() 
